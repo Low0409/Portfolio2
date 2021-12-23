@@ -7,11 +7,11 @@ function Header() {
       <Container>
         <nav className="flex space-x-4">
           <Link href="/">
-            <a>About</a>
+            <a>Top</a>
           </Link>
-          <Link href="/posts">
-            <a>Posts</a>
-          </Link>
+
+            <a href='//relife-campus.com'>WordPress</a>
+          <a href='//github.com/Low0409'>GitHub</a>
         </nav>
       </Container>
     </header>
