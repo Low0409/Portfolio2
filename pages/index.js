@@ -6,8 +6,8 @@ function HomePage() {
   return (
     <>
       <Container>
-        <div className="space-y-8">
-          <h1 className="text-3xl font-bold">
+        <div className="space-y-7">
+          <h1 className="text-3xl font-bold bg-gray-500 shadow-sm text-white p-3">
             My portfolio
           </h1>
           <p>
@@ -16,27 +16,42 @@ function HomePage() {
             portfolio.
           </p>
 
-          <h1 className="text-3xl font-bold ">作成物一覧</h1>
+          <h1 className="text-3xl font-bold ">制作してきたもの</h1>
 
 
-          <h2 className="text-2xl font-bold">・Nimble(Webチャットアプリ)</h2>
+          <h2 className="text-2xl font-bold bg-gray-500 shadow-sm text-white p-3">・Nimble(Webチャットアプリ)</h2>
           <div className="container max-w-4xl m-auto px-4 mt-20">
             <Image
               src="/Nible.PNG"
               alt="Nimble"
               width={1920 / 2}
-              height={880 / 2}
+              height={1000 / 2}
             />
           </div>
-          <p>多機能チャットアプリ。チャンネルが分かれており、自分でチャンネルを作成することもできます。</p>
+          <p>多機能チャットアプリ。ログイン機能、チャンネルが分かれており、自分でチャンネルを作成することもできます。</p>
           <p>またスタンプも送信出来たり,Twitterでいうところのファボ💓機能に加えて</p>
-          <p>画像を送れたり,ファイルの共有もできます。(多くの拡張子に対応しています)</p>
-          <p>---主な使用した技術:Express/Socket.io/FirebaseRealTimeDB・Storage/JQuery/bootstrap</p>
+          <p>上の画像にあるように画像ファイルを送れたり,ファイルの共有ができます。(多くの拡張子に対応しています)</p>
+          <p>【使用した主な技術】:Express/Socket.io/FirebaseRealTimeDB・Storage/JQuery/bootstrap</p>
 
-        <h2 className="text-2xl font-bold mt-8">・ビデオチャットWebアプリ</h2>
+        <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">・ビデオチャットWebアプリ</h2>
         <p>Sky Way apiを使用したビデオチャットアプリ。</p>
         <p>Nimbleの機能として付け加えた</p>
-        <p>---主な使用した技術:SkyWayAPI</p>
+        <p>【使用した主な技術】:SkyWayAPI</p>
+
+
+        <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">・グラデーションジェネレーター</h2>
+        <a href="https://gradation-app.vercel.app/">デプロイしてます　https://gradation-app.vercel.app/</a>
+        <Image
+              src="/gradation.PNG"
+              alt="Nimble"
+              width={1920 / 2}
+              height={1200 / 2}
+            />
+            <p>よくあるグラデーションWebアプリは多機能だけど色を自分で決めて比率を自分で調整するなどが不便で</p>
+            <p>面倒なところがあるのでシンプルなものを作ってみたい思った。Next.jsで初めて作ったまともなWebアプリ</p>
+            <p>カラー変更ボタンを押す度ランダムに色が変わる。ボタンを押し続けて直感でいいなと思った色を見つけられる。</p>
+            <p>【使用した主な技術】:Next.js</p>
+
 
         </div>
 
