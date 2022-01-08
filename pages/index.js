@@ -34,9 +34,15 @@ function HomePage() {
           <p>【使用した主な技術】:Express/Socket.io/FirebaseRealTimeDB・Storage/JQuery/bootstrap</p>
 
         <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">・ビデオチャットWebアプリ</h2>
-        <p>SkyWayAPIを使用したビデオチャットアプリです。</p>
-        <p>上のチャットアプリNimbleのビデオチャット機能として付け加えました。</p>
-        <p>【使用した主な技術】:SkyWayAPI</p>
+        <Image
+              src="/NimbleVideo.PNG"
+              alt="Nimble"
+              width={1920 / 2}
+              height={1000 / 2}
+            />
+        <p>SkyWayAPIを使用した1対1ビデオチャットアプリです。</p>
+        <p>上のチャットアプリNimbleのビデオチャット機能として付け加えました。字幕起こしボタンを押すとリアルタイムにお互いしゃべった言葉が文字おこしされます。</p>
+        <p>【使用した主な技術】:SkyWayAPI, Web Speech API,FirebaseRealTimeDB</p>
 
 
         <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">・グラデーションジェネレーター</h2>
@@ -45,11 +51,11 @@ function HomePage() {
               src="/gradation.PNG"
               alt="Nimble"
               width={1920 / 2}
-              height={1200 / 2}
+              height={1000 / 2}
             />
             <p>よくあるグラデーションWebアプリは多機能だけど色を自分で決めて比率を自分で調整するなどが不便です。</p>
             <p>カラー変更ボタンを押す度ランダムに色が変わり、直感でいいなと思った色を見つけられます。</p>
-            <p>気が向いたら3色に切り替えられるようにしたいと思います。</p>
+            <p>気が向いたら3色モードに切り替えられるようにする予定です。</p>
             <p>【使用した主な技術】:Next.js</p>
 
 
