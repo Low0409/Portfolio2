@@ -35,8 +35,8 @@ function HomePage() {
 
         <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">・ビデオチャットWebアプリ</h2>
         <Image
-              src="/NimbleVideo.PNG"
-              alt="Nimble"
+              src="/video.jpg"
+              alt="NimbleVideo"
               width={1920 / 2}
               height={1000 / 2}
             />
