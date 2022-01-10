@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Tools from '../components/Tools'
 const Skill = () => {
     return (
         <>
@@ -26,7 +26,7 @@ const Skill = () => {
                     </tr>
                     <tr className="bg-gray-100">
                         <td className="border px-4 py-2">PHP</td>
-                        <td className="border px-4 py-2">🌟🌟🌟</td>
+                        <td className="border px-4 py-2">🌟🌟</td>
                     </tr>
                     <tr>
                         <td className="border px-4 py-2">GitHub</td>
@@ -70,27 +70,20 @@ const Skill = () => {
                     </tr>
                     <tr>
                         <td className="border px-4 py-2">bootstrap</td>
-                        <td className="border px-4 py-2">🌟🌟</td>
+                        <td className="border px-4 py-2">🌟🌟🌟</td>
                     </tr>
                     <tr className="bg-gray-100">
                         <td className="border px-4 py-2">tailwind</td>
-                        <td className="border px-4 py-2">🌟🌟</td>
+                        <td className="border px-4 py-2">🌟🌟🌟</td>
                     </tr>
                     <tr>
                         <td className="border px-4 py-2">python</td>
-                        <td className="border px-4 py-2">🌟🌟</td>
+                        <td className="border px-4 py-2">🌟</td>
                     </tr>
-                    <tr className="bg-gray-100">
-                        <td className="border px-4 py-2">adobe Animeter</td>
-                        <td className="border px-4 py-2">🌟🌟🌟</td>
-                    </tr>
-                    <tr>
-                        <td className="border px-4 py-2">PhotoShop</td>
-                        <td className="border px-4 py-2">🌟🌟🌟</td>
-                    </tr>
+
                 </tbody>
             </table>
-
+        <Tools/>
         </>
     )
 }

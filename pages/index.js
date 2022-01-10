@@ -11,9 +11,7 @@ function HomePage() {
             My portfolio
           </h1>
           <p>
-            This portfolio is built with Next.js and a library called next-mdx.
-            It allows you to write Markdown and focus on the content of your
-            portfolio.
+            This portfolio is built with Next.js.
           </p>
 
           <h1 className="text-3xl font-bold ">制作してきたもの</h1>
@@ -51,7 +49,7 @@ function HomePage() {
               src="/gradation.PNG"
               alt="Nimble"
               width={1920 / 2}
-              height={1000 / 2}
+              height={1200 / 2}
             />
             <p>よくあるグラデーションWebアプリは多機能だけど色を自分で決めて比率を自分で調整するなどが不便です。</p>
             <p>カラー変更ボタンを押す度ランダムに色が変わり、直感でいいなと思った色を見つけられます。</p>

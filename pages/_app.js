@@ -23,7 +23,7 @@ export default function MyApp({ Component, pageProps }) {
 
       </main>
     </Auth0Provider>
-    <h1 className='m-14 bg-gray-500'>app.js</h1>
+    <h1>最終更新2022/01/10</h1>
     </>
   )
 }
