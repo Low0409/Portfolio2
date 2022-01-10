@@ -1,5 +1,6 @@
 import Container from '../components/container'
 import Image from 'next/image'
+import Footer from '../components/Footer'
 import 'tailwindcss/tailwind.css'
 
 function HomePage() {
@@ -60,8 +61,7 @@ function HomePage() {
         </div>
 
       </Container>
-
-      {/* <div className="container max-w-4xl m-auto px-4 mt-20"> */}
+    <Footer/>
 
     </>
   )

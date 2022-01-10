@@ -12,7 +12,7 @@ const Tools = () => {
                 </thead>
                 <tbody>
                 <tr className="bg-gray-100">
-                        <td className="border px-4 py-2">MicroSoft Office系</td>
+                        <td className="border px-4 py-2">Microsoft Office系</td>
                     </tr>
                     <tr>
                         <td className="border px-4 py-2">vscode</td>
