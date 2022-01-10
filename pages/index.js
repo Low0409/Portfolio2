@@ -1,6 +1,5 @@
 import Container from '../components/container'
 import Image from 'next/image'
-import Footer from '../components/Footer'
 import 'tailwindcss/tailwind.css'
 
 function HomePage() {
@@ -16,7 +15,6 @@ function HomePage() {
           </p>
 
           <h1 className="text-3xl font-bold ">制作してきたもの</h1>
-
 
           <h2 className="text-2xl font-bold bg-gray-500 shadow-sm text-white p-3">・Nimble(Webチャットアプリ)</h2>
           <div className="container max-w-4xl m-auto px-4 mt-20">
@@ -56,13 +54,8 @@ function HomePage() {
             <p>カラー変更ボタンを押す度ランダムに色が変わり、直感でいいなと思った色を見つけられます。</p>
             <p>気が向いたら3色モードに切り替えられるようにする予定です。</p>
             <p>【使用した主な技術】:Next.js</p>
-
-
         </div>
-
       </Container>
-    <Footer/>
-
     </>
   )
 }

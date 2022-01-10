@@ -2,6 +2,7 @@ import 'tailwindcss/tailwind.css'
 
 import Head from 'next/head'
 import Header from '../components/header'
+import Footer from '../components/Footer'
 import { Auth0Provider } from '@auth0/auth0-react'
 
 export default function MyApp({ Component, pageProps }) {
@@ -21,8 +22,8 @@ export default function MyApp({ Component, pageProps }) {
 
       <main className="pt-14">
         <Component {...pageProps} />
-
       </main>
+      <Footer/>
     </Auth0Provider>
     </>
   )

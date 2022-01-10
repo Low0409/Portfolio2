@@ -80,7 +80,10 @@ const Skill = () => {
                         <td className="border px-4 py-2">python</td>
                         <td className="border px-4 py-2">🌟</td>
                     </tr>
-
+                    <tr className="bg-gray-100">
+                        <td className="border px-4 py-2">Node.js</td>
+                        <td className="border px-4 py-2">🌟🌟🌟</td>
+                    </tr>
                 </tbody>
             </table>
         <Tools/>
