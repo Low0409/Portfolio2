@@ -7,13 +7,13 @@ function Header() {
       <Container>
         <nav className="flex space-x-5">
           <Link href="/">
-            <a>Top</a>
+            <a className='hover:bg-gray-200 p-1'>Top</a>
           </Link>
 
-            <a href='//relife-campus.com'>WordPress</a>
-          <a href='//github.com/Low0409'>GitHub</a>
+            <a className='hover:bg-gray-200  p-1' href='//relife-campus.com'>WordPress</a>
+          <a className='hover:bg-gray-200  p-1' href='//github.com/Low0409'>GitHub</a>
           <Link href="/Skill">
-            <a>触ったことがある技術</a>
+            <a className='hover:bg-gray-200  p-1'>触ったことがある技術</a>
           </Link>
         </nav>
       </Container>
