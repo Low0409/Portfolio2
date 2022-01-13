@@ -1,9 +1,7 @@
 import React from 'react'
 import List from './List'
-import Container from '../container'
 const Table = () => {
     return (
-        <Container>
         <div>
             <table className="table-auto m-auto">
                 <thead>
@@ -28,11 +26,6 @@ const Table = () => {
 
             </table>
         </div>
-
-
-
-        </Container>
-
     )
 }
 
