@@ -57,9 +57,9 @@ function HomePage() {
           <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">システムツール・フロントデザイン</h2>
           <Image
             src="/system-tool.jpg"
-            alt="system-tool-img"
+            alt="system"
             width={1000}
-            height={886}
+            height={754}
           />
           <p>アルバイトでの業務にて自社のシステムツールを作成しました。</p>
           <p>バックエンドはSEの方がを構築中の段階で、私は、フロントデザインを任されました。</p>
@@ -67,7 +67,7 @@ function HomePage() {
           <p>謎に空いているスペースは権限によって閲覧できるコンテンツが変わるためです</p>
 
           <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">FC募集ページ</h2>
-          <a href="https://gradation-app.vercel.app/" class='text-blue-600 hover:text-blue-400'>https://www.alltimefitness.jp/franchise/index.html</a>
+          <a href="https://www.alltimefitness.jp/franchise/index.html" class='text-blue-600 hover:text-blue-400'>https://www.alltimefitness.jp/franchise/index.html</a>
           <Image
             src="/FC.jpg"
             alt="FC"
@@ -76,7 +76,7 @@ function HomePage() {
           />
           <p>アルバイトでの最初の業務にてフランチャイズ募集ページを作成しました。</p>
           <p>表示するコンテンツの選定→AdobeXDでサンプル作成→コーディングのステップを踏んで作成しました。</p>
-          <p>一部画像のデザインも一人で作成したのですが、Adobe系ツールをガッツリ触れることができたので良かったです</p>
+          <p>9割がた画像のデザインも一人で作成したのですが、Adobe系ツールをガッツリ触れることができたので良かったです</p>
         </div>
       </Container>
     </>
