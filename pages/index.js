@@ -55,6 +55,16 @@ function HomePage() {
           <p>カラー変更ボタンを押す度ランダムに色が変わり、直感でいいなと思った色を見つけられます。</p>
           <p>気が向いたら3色モードに切り替えられるようにする予定です。</p>
           <p>【使用した主な技術】:Next.js</p>
+          <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">システムツール・フロントデザイン</h2>
+          <Image
+            src="/system-tool.jpg"
+            alt="system-tool-img"
+            width={1000}
+            height={886}
+          />
+          <p>アルバイトでの業務にて自社のシステムツールを作成しました。</p>
+          <p>バックエンドはSEの方がを構築中の段階で、私は、フロントデザインを任されました。</p>
+          <p>できるだけ無駄な要素を省いて、ユーザビリティ重視でUI設計しました。</p>
           <Photoshop />
         </div>
       </Container>
