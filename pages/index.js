@@ -1,6 +1,5 @@
 import Container from '../components/container'
 import Image from 'next/image'
-import Photoshop from '../components/Photoshop'
 import 'tailwindcss/tailwind.css'
 
 function HomePage() {
@@ -65,7 +64,19 @@ function HomePage() {
           <p>アルバイトでの業務にて自社のシステムツールを作成しました。</p>
           <p>バックエンドはSEの方がを構築中の段階で、私は、フロントデザインを任されました。</p>
           <p>できるだけ無駄な要素を省いて、ユーザビリティ重視でUI設計しました。</p>
-          <Photoshop />
+          <p>謎に空いているスペースは権限によって閲覧できるコンテンツが変わるためです</p>
+
+          <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">FC募集ページ</h2>
+          <a href="https://gradation-app.vercel.app/" class='text-blue-600 hover:text-blue-400'>https://www.alltimefitness.jp/franchise/index.html</a>
+          <Image
+            src="/FC.jpg"
+            alt="FC"
+            width={1200}
+            height={600}
+          />
+          <p>アルバイトでの最初の業務にてフランチャイズ募集ページを作成しました。</p>
+          <p>表示するコンテンツの選定→AdobeXDでサンプル作成→コーディングのステップを踏んで作成しました。</p>
+          <p>一部画像のデザインも一人で作成したのですが、Adobe系ツールをガッツリ触れることができたので良かったです</p>
         </div>
       </Container>
     </>
