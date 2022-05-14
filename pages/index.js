@@ -56,15 +56,16 @@ function HomePage() {
           <p>【使用した主な技術】:Next.js</p>
           <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">システムツール・フロントデザイン</h2>
           <Image
-            src="/system-tool.jpg"
+            src="/system.jpg"
             alt="system"
             width={1000}
             height={754}
           />
+
           <p>アルバイトでの業務にて自社のシステムツールを作成しました。</p>
-          <p>バックエンドはSEの方がを構築中の段階で、私は、フロントデザインを任されました。</p>
-          <p>できるだけ無駄な要素を省いて、ユーザビリティ重視でUI設計しました。</p>
-          <p>謎に空いているスペースは権限によって閲覧できるコンテンツが変わるためです</p>
+          <p>バックエンドはSEの方がを構築中の段階で、同時進行で私はUI設計を任されました。</p>
+          <p>できるだけ無駄な要素は加えず、シンプルさとユーザビリティ重視でUI設計しました。</p>
+          <p>謎に空いているスペースは権限によって閲覧できるコンテンツが変わるためです。</p>
 
           <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">FC募集ページ</h2>
           <a href="https://www.alltimefitness.jp/franchise/index.html" class='text-blue-600 hover:text-blue-400'>https://www.alltimefitness.jp/franchise/index.html</a>
@@ -77,6 +78,15 @@ function HomePage() {
           <p>アルバイトでの最初の業務にてフランチャイズ募集ページを作成しました。</p>
           <p>表示するコンテンツの選定→AdobeXDでサンプル作成→コーディングのステップを踏んで作成しました。</p>
           <p>9割がた画像のデザインも一人で作成したのですが、Adobe系ツールをガッツリ触れることができたので良かったです</p>
+
+          {/* <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">Instagram</h2>
+          <Image
+            src="/insta.jpg"
+            alt="FC"
+            width={1200}
+            height={600}
+          />
+          <p>アルバイトでの最初の業務にてフランチャイズ募集ページを作成しました。</p> */}
         </div>
       </Container>
     </>
