@@ -78,14 +78,16 @@ function HomePage() {
           <p>表示するコンテンツの選定→AdobeXDでサンプル作成→コーディングのステップを踏んで作成しました。</p>
           <p>9割がた画像のデザインも一人で作成したのですが、Adobe系ツールをガッツリ触れることができたので良かったです</p>
 
-          {/* <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">Instagram</h2>
+          <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">Instagram</h2>
           <Image
-            src="/insta.jpg"
+            src="/insta3.jpg"
             alt="FC"
             width={1200}
             height={600}
           />
-          <p>アルバイトでの最初の業務にてフランチャイズ募集ページを作成しました。</p> */}
+          <p>アルバイトでの最初の業務にてInstagram Graph APIでの投稿表示を作成しました。</p>
+          <p>今まではSnapWidgetという有料サービスで投稿を表示していましたが、</p>
+          <p>各店舗ページを合わせると70以上あることもあり、コストがかかるということで、APIでの表示を実装しました。</p>
         </div>
       </Container>
     </>
