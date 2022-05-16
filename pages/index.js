@@ -61,7 +61,18 @@ function HomePage() {
             width={1000}
             height={754}
           />
-
+          <Image
+            src="/sys.jpg"
+            alt="system"
+            width={1000}
+            height={754}
+          />
+          <Image
+            src="/system.png"
+            alt="system"
+            width={1000}
+            height={754}
+          />
           <p>アルバイトでの業務にて自社のシステムツールを作成しました。</p>
           <p>バックエンドはSEの方がを構築中の段階で、同時進行で私はUI設計を任されました。</p>
           <p>できるだけ無駄な要素は加えず、シンプルさとユーザビリティ重視でUI設計しました。</p>
