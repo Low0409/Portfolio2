@@ -56,19 +56,7 @@ function HomePage() {
           <p>【使用した主な技術】:Next.js</p>
           <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">システムツール・フロントデザイン</h2>
           <Image
-            src="/system.jpg"
-            alt="system"
-            width={1000}
-            height={754}
-          />
-          <Image
             src="/sys.jpg"
-            alt="system"
-            width={1000}
-            height={754}
-          />
-          <Image
-            src="/system.png"
             alt="system"
             width={1000}
             height={754}
