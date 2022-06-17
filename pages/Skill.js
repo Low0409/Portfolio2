@@ -5,7 +5,7 @@ const Skill = () => {
     return (
         <>
             <Container>
-                <h1 className="flex justify-center mb-5">いままでに触ったことがある技術</h1>
+                <h1 className="text-center mb-5">いままでに触ったことがある技術</h1>
                 <table className="table-auto m-auto">
                     <thead>
                         <tr>
@@ -42,6 +42,10 @@ const Skill = () => {
                             <td className="border px-4 py-2">React</td>
                             <td className="border px-4 py-2">🌟🌟</td>
                         </tr>
+                        <tr>
+                            <td className="border px-4 py-2">Vue.js</td>
+                            <td className="border px-4 py-2">🌟🌟</td>
+                        </tr>
                         <tr className="bg-gray-100">
                             <td className="border px-4 py-2">Next.js</td>
                             <td className="border px-4 py-2">🌟🌟</td>
@@ -52,10 +56,6 @@ const Skill = () => {
                         </tr>
                         <tr className="bg-gray-100">
                             <td className="border px-4 py-2">WordPress</td>
-                            <td className="border px-4 py-2">🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td className="border px-4 py-2">Linux</td>
                             <td className="border px-4 py-2">🌟🌟</td>
                         </tr>
                         <tr className="bg-gray-100">
@@ -89,6 +89,9 @@ const Skill = () => {
                     </tbody>
                 </table>
                 <Tools />
+
+
+
             </Container>
 
         </>
