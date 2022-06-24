@@ -36,7 +36,7 @@ function HomePage() {
           <p>上のチャットアプリNimbleのビデオチャット機能として付け加えました。字幕起こしボタンを押すとリアルタイムにお互いしゃべった言葉が文字おこしされます。</p>
           <p>【使用した主な技術】:SkyWayAPI, Web Speech API,FirebaseRealTimeDB</p>
 
-
+{/* 
           <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">・グラデーションジェネレーター</h2>
           <Image
             src="/gradation.jpg"
@@ -47,7 +47,7 @@ function HomePage() {
           <p>よくあるグラデーションWebアプリは多機能だけど色を自分で決めて比率を自分で調整するなどが不便です。</p>
           <p>カラー変更ボタンを押す度ランダムに色が変わり、直感でいいなと思った色を見つけられます。</p>
           <p>気が向いたら3色モードに切り替えられるようにする予定です。</p>
-          <p>【使用した主な技術】:Next.js</p>
+          <p>【使用した主な技術】:Next.js</p> */}
           <h2 className="text-2xl font-bold mt-8 bg-gray-500 shadow-sm text-white p-3">システムツール・フロントデザイン</h2>
           <Image
             src="/sys.jpg"
