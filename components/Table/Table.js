@@ -13,7 +13,8 @@ const Table = () => {
 
                     <List ToolName="Microsoft Office系" color="" />
                     <List ToolName="vscode" color="bg-gray-100" />
-                    <List ToolName="Github" color="" />
+                    <List ToolName="GitHub" color="" />
+                    <List ToolName="GitLab" color="" />
                     <List ToolName="WordPress" color="bg-gray-100" />
                     <List ToolName="Photoshop" color="" />
                     <List ToolName="Eclipse" color="bg-gray-100" />

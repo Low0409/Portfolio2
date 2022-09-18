@@ -51,6 +51,10 @@ const Skill = () => {
                             <td className="border px-4 py-2">🌟🌟</td>
                         </tr>
                         <tr>
+                            <td className="border px-4 py-2">Svelte</td>
+                            <td className="border px-4 py-2">🌟🌟</td>
+                        </tr>
+                        <tr>
                             <td className="border px-4 py-2">Express</td>
                             <td className="border px-4 py-2">🌟🌟🌟</td>
                         </tr>
